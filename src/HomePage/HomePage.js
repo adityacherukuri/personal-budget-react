@@ -57,21 +57,6 @@ function HomePage() {
               goal is to never go over the budget.
             </p>
           </article>
-          <article>
-            <h2>Results</h2>
-            <p>
-              People who stick to a financial plan, budgeting every expense, get
-              out of debt faster! Also, they to live happier lives... since they
-              expend without guilt or fear... because they know it is all good
-              and accounted for.
-            </p>
-          </article>
-          <article>
-            <h2>Chart</h2>
-            <p>
-              <canvas id="myChart" width="300" height="300"></canvas>
-            </p>
-          </article>
         </div>
       </div>
     </main>

@@ -1,10 +1,12 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Menu from "./Menu/Menu";
 import Hero from "./Hero/Hero";
 import HomePage from "./HomePage/HomePage";
+import ChartJS from "./Charts/Chart";
+import PieClass from "./Charts/d3";
 import AboutPage from "./AboutPage/AboutPage";
 import Footer from "./Footer/Footer";
 import LoginPage from "./LoginPage/LoginPage";
@@ -24,6 +26,13 @@ function App() {
           </Route>
           <Route path="/">
             <HomePage />
+            <ChartJS />
+            <PieClass
+              width={1200}
+              height={1200}
+              innerRadius={150}
+              outerRadius={300}
+            />
           </Route>
         </Switch>
       </div>
